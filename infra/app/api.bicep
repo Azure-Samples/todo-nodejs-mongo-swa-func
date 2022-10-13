@@ -19,11 +19,11 @@ module api '../core/host/functions.bicep' = {
     applicationInsightsName: applicationInsightsName
     appServicePlanId: appServicePlanId
     keyVaultName: keyVaultName
-    serviceName: serviceName
-    storageAccountName: storageAccountName
     runtimeName: 'node'
     runtimeVersion: '16'
-    remoteBuild: true
+    serviceName: serviceName
+    scmDoBuildDuringDeployment: true
+    storageAccountName: storageAccountName
   }
 }
 
