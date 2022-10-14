@@ -23,7 +23,6 @@ module api '../core/host/functions/functions.bicep' = {
     runtimeName: 'node'
     runtimeVersion: '16'
     serviceName: serviceName
-    scmDoBuildDuringDeployment: true
     storageAccountName: storageAccountName
   }
 }
